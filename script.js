@@ -154,5 +154,5 @@ const mass4 = 85;
 const height4 = 1.76;
 const johnWeights2 = mass4 / height4 ** 2;
 console.log(johnWeights2);
-markHigherBMI2 = (marksWeights2 > johnWeights2);
+const markHigherBMI2 = (marksWeights2 > johnWeights2);
 console.log(markHigherBMI2);
