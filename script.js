@@ -61,10 +61,10 @@ console.log(typeof year);
 console.log(typeof null);
 */
 
-let age = 30;
-age = 31;
+// let age = 30;
+// age = 31;
 
-const birthYear = 1991;
+// const birthYear = 1991;
 // birthYear = 1990;
 // const job;
 /*
@@ -114,19 +114,9 @@ const averageAge = (ageJonas + ageSarah) / 2
 console.log(ageSarah, ageSarah, averageAge);
 */
 
+
+/*
 //Coding Challenge #1
-
-// Mark and John are trying to compare their BMI (Body Mass Index), which is
-// calculated using the formula:
-// BMI = mass / height ** 2 = mass / (height * height) (mass in kg
-// and height in meter).
-// Your tasks:
-// 1. Store Mark's and John's mass and height in variables
-// 2. Calculate both their BMIs using the formula (you can even implement both
-// versions)
-// 3. Create a Boolean variable 'markHigherBMI' containing information about
-// whether Mark has a higher BMI than John.
-
 
 //1.
 const mass1 = 78;
@@ -156,3 +146,94 @@ const johnWeights2 = mass4 / height4 ** 2;
 console.log(johnWeights2);
 const markHigherBMI2 = (marksWeights2 > johnWeights2);
 console.log(markHigherBMI2);
+*/
+
+/*
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old' + job + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year -  birthYear} year old ${job}!`;
+console.log(jonasNew);
+console.log(`just a regular string...`);
+
+console.log(`String with \n\
+multiple \n\
+lines`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+*/
+
+/*
+const age = 15;
+
+if (age >= 18) {
+    console.log('Sarah can start driving license🚗');
+} else {
+    const yearLeft = 18 - age;
+    console.log(` Sarah is too young. Wait another ${yearLeft} years:`);
+}
+
+
+const birthYear = 2012;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
+*/
+
+// Coding Challenge #2
+
+/*
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+const markBMI = massMark / (heightMark ** 2);
+const johnBMI = massJohn / (heightJohn ** 2);
+if (markBMI > johnBMI) {
+    console.log(" Mark's BMI is greater than John's BMI ");
+} else {
+    console.log(" John's BMI is greater than Mark's BMI ");
+}
+
+
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+const markBMI = massMark / (heightMark ** 2);
+const johnBMI = massJohn / (heightJohn ** 2);
+if (markBMI > johnBMI) {
+    console.log(` Mark's BMI (${ markBMI}) is greater than John's (${johnBMI}) BMI `);
+} else {
+    console.log(` John's (${johnBMI})  BMI is greater than Mark's (${ markBMI})  BMI `);
+}
+
+// type conversion
+const inputYear = '1991'
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+console.log(String(23), 23);
+
+// type coercion
+console.log('I am ' + 23 + ' years old')
+console.log('23' - '10' - 3);
+console.log('23' / '2');
+
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
+*/
