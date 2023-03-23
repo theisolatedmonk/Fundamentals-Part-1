@@ -261,26 +261,153 @@ if (height) {
 }
 */
 
-const age = '18';
-if (age === 18) console.log('You just become an adult:D');
+// const age = '18';
+// if (age === 18) console.log('You just become an adult:D');
 
-if (age == 18) console.log('You just become an adult:D');
+// if (age == 18) console.log('You just become an adult:D');
 
-const favourite = prompt("What's your favourite number?");
-console.log(favourite);
-console.log(typeof favourite);
-23
+// const favourite = prompt("What's your favourite number?");
+// console.log(favourite);
+// console.log(typeof favourite);
+// 23
 
-if (favourite === 23) {
-    console.log('Cool! 23 is an amazing number!')
+// if (favourite === 23) {
+//     console.log('Cool! 23 is an amazing number!')
 
-} else if (favourite == 7) {
-    console.log('7 is also a cool number')
+// } else if (favourite == 7) {
+//     console.log('7 is also a cool number')
 
-} else if (favourite == 9) {
-    console.log('9 is also a cool number')
+// } else if (favourite == 9) {
+//     console.log('9 is also a cool number')
+// } else {
+//     console.log('Number is2344 not 23 or 7 or 9')
+// }
+
+// if (favourite != 23) console.log('Why not 23?');
+/*
+const hasDriversLicense = true; //A
+const hasGoodVision = false; //B
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+if (hasDriversLicense && hasGoodVision) {
+    console.log('Sarah is able to drive')
 } else {
-    console.log('Number is not 23 or 7 or 9')
+    console.log('someone else should drive...')
 }
 
-if (favourite != 23) console.log('Why not 23?');
+const isTired = true; // C
+console.log (hasDriversLicense&&hasGoodVision && isTired);
+if  (hasDriversLicense&&hasGoodVision &&! isTired){
+    console.log('Sarah is able to drive!');
+}else{
+    console.log('Someone else should drive!');
+}
+*/
+
+// Coding Challenge #3
+// There are two gymnastics teams, Dolphins and Koalas. They compete against each
+// other 3 times. The winner with the highest average score wins a trophy!
+// Your tasks:
+// 1. Calculate the average score for each team, using the test data below
+// 2. Compare the team's average scores to determine the winner of the competition,
+// and print it to the console. Don't forget that there can be a draw, so test for that
+// as well (draw means they have the same average score)
+// 3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a
+// team only wins if it has a higher score than the other team, and the same time a
+// score of at least 100 points. Hint: Use a logical operator to test for minimum
+// score, as well as multiple else-if blocks �
+// 4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when
+// both teams have the same score and both have a score greater or equal 100
+// points. Otherwise, no team wins the trophy
+// Test data:
+// § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+// § Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+// § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+
+
+//Dolphins score 96, 108 and 89
+
+// const Dscore1 = 96;
+// const Dscore2 = 108;
+// const Dscore3 = 89;
+
+// const DolphinScoreAvg = (Dscore1 + Dscore2 + Dscore3) / 3
+// console.log(DolphinScoreAvg);
+
+
+// //Koalas score 88, 91 and 110
+
+// const Kscore1 = 88
+// const Kscore2 = 91
+// const Kscore3 = 110
+
+// const KoalaScoreAvg = (Kscore1 + Kscore2 + Kscore3) / 3
+// console.log(KoalaScoreAvg);
+
+// if (DolphinScoreAvg > KoalaScoreAvg) {
+//     console.log('Dolphins are winner')
+// } else if (DolphinScoreAvg < KoalaScoreAvg) {
+//     console.log('Koalas are winner')
+// } else if (DolphinScoreAvg === KoalaScoreAvg) {
+//     console.log('Both win the trophy');
+// }
+
+//Bonus 1
+
+//Dolphins score 96, 108 and 89
+
+// const Dscore1 = 97;
+// const Dscore2 = 112;
+// const Dscore3 = 101;
+
+// const DolphinScoreAvg = (Dscore1 + Dscore2 + Dscore3) / 3
+// console.log(DolphinScoreAvg);
+
+
+// //Koalas score 88, 91 and 110
+
+// const Kscore1 = 109
+// const Kscore2 = 95
+// const Kscore3 = 123
+
+// const KoalaScoreAvg = (Kscore1 + Kscore2 + Kscore3) / 3
+// console.log(KoalaScoreAvg);
+
+// if (DolphinScoreAvg > KoalaScoreAvg && DolphinScoreAvg >= 100) {
+//     console.log('Dolphins are winner')
+// } else if (DolphinScoreAvg < KoalaScoreAvg && KoalaScoreAvg <= 100) {
+//     console.log('Koalas are winner')
+// } else if (DolphinScoreAvg === KoalaScoreAvg && DolphinScoreAvg >= 100 && KoalaScoreAvg <= 100) {
+//     console.log('Both win the trophy');
+// }else {console.log('Both loss the trophy');}
+
+//Bonus 2
+
+//Dolphins score 96, 108 and 89
+
+const Dscore1 = 97;
+const Dscore2 = 112;
+const Dscore3 = 101;
+
+const DolphinScoreAvg = (Dscore1 + Dscore2 + Dscore3) / 3
+console.log(DolphinScoreAvg);
+
+
+//Koalas score 88, 91 and 110
+
+const Kscore1 = 109
+const Kscore2 = 95
+const Kscore3 = 126
+
+const KoalaScoreAvg = (Kscore1 + Kscore2 + Kscore3) / 3
+console.log(KoalaScoreAvg);
+
+if (DolphinScoreAvg > KoalaScoreAvg && DolphinScoreAvg >= 100) {
+    console.log('Dolphins are winner')
+} else if (DolphinScoreAvg < KoalaScoreAvg && KoalaScoreAvg <= 100) {
+    console.log('Koalas are winner')
+} else if (DolphinScoreAvg === KoalaScoreAvg && DolphinScoreAvg >= 100 && KoalaScoreAvg <= 100) {
+    console.log('Both win the trophy');
+} else { console.log('Both loss the trophy'); }
