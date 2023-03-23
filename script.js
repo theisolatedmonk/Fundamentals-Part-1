@@ -387,27 +387,106 @@ if  (hasDriversLicense&&hasGoodVision &&! isTired){
 
 //Dolphins score 96, 108 and 89
 
-const Dscore1 = 97;
-const Dscore2 = 112;
-const Dscore3 = 101;
+// const Dscore1 = 97;
+// const Dscore2 = 112;
+// const Dscore3 = 101;
 
-const DolphinScoreAvg = (Dscore1 + Dscore2 + Dscore3) / 3
-console.log(DolphinScoreAvg);
+// const DolphinScoreAvg = (Dscore1 + Dscore2 + Dscore3) / 3
+// console.log(DolphinScoreAvg);
 
 
 //Koalas score 88, 91 and 110
 
-const Kscore1 = 109
-const Kscore2 = 95
-const Kscore3 = 126
+// const Kscore1 = 109
+// const Kscore2 = 95
+// const Kscore3 = 126
 
-const KoalaScoreAvg = (Kscore1 + Kscore2 + Kscore3) / 3
-console.log(KoalaScoreAvg);
+// const KoalaScoreAvg = (Kscore1 + Kscore2 + Kscore3) / 3
+// console.log(KoalaScoreAvg);
 
-if (DolphinScoreAvg > KoalaScoreAvg && DolphinScoreAvg >= 100) {
-    console.log('Dolphins are winner')
-} else if (DolphinScoreAvg < KoalaScoreAvg && KoalaScoreAvg <= 100) {
-    console.log('Koalas are winner')
-} else if (DolphinScoreAvg === KoalaScoreAvg && DolphinScoreAvg >= 100 && KoalaScoreAvg <= 100) {
-    console.log('Both win the trophy');
-} else { console.log('Both loss the trophy'); }
+// if (DolphinScoreAvg > KoalaScoreAvg && DolphinScoreAvg >= 100) {
+//     console.log('Dolphins are winner')
+// } else if (DolphinScoreAvg < KoalaScoreAvg && KoalaScoreAvg <= 100) {
+//     console.log('Koalas are winner')
+// } else if (DolphinScoreAvg === KoalaScoreAvg && DolphinScoreAvg >= 100 && KoalaScoreAvg <= 100) {
+//     console.log('Both win the trophy');
+// } else { console.log('Both loss the trophy'); }
+
+//switch
+
+// const day = 'wednesday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('Plane course structure');
+//         console.log('Go to coding meetup');
+//         break;
+//     case 'tuesday':
+//         console.log('Prepare theory videos');
+//         break;
+//     case 'wednesday':
+//     case 'thursday':
+//         console.log('Write code examples');
+//         break;
+//     case 'friday':
+//         console.log('Record videos');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('Enjoy the weekend');
+//         break;
+//     default:
+//         console.log('Not a valid day');
+// }
+
+// day = 'tuesday'
+
+// if (day === 'monday') {
+//     console.log('Plane course structure');
+//     console.log('Go to coding meetup');
+// } else if (day === 'tuesday') {
+//     console.log('Prepare theory videos');
+// } else if (day === 'wednesday' || day === 'thursday') {
+//     console.log('Write code examples');
+// } else if (day === 'friday') {
+//     console.log('Record videos');
+// } else if (day === 'saturday' || day === 'sunday') {
+//     console.log('Enjoy the weekend');
+// } else {
+//     console.log('Not a valid day');
+// }
+
+
+// turnery operator, coditional operator
+// const age = 35;
+// age >= 18 ? console.log('I like to drink wine') : console.log('I like to drink water ');
+
+// const drink = age >= 18 ? 'wine' : 'water';
+// console.log(drink);
+// // const age = 13;
+
+// let drink2;
+// if (age >= 18) {
+//     drink2 = 'wine';
+// } else {
+//     drink2 = 'water';
+// }
+// console.log(drink2);
+
+
+
+// console.log(`I like to drink ${age >= 18 ? 'wine': 'water'}`);
+
+
+
+
+// //Coding Challenge #4
+// // 1.
+// const bill = 430;
+
+// const tip = bill >= 50 && bill <= 300 ? (15 * bill) / 100 : (20 * bill) / 100;
+// console.log('Tip=', tip);
+
+// // 2.
+
+// console.log(`The bill was ${bill}, the tip was ${tip} and the total value is ${bill + tip} `);
