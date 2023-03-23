@@ -468,7 +468,7 @@ if  (hasDriversLicense&&hasGoodVision &&! isTired){
 // let drink2;
 // if (age >= 18) {
 //     drink2 = 'wine';
-// } else {
+// } else { 
 //     drink2 = 'water';
 // }
 // console.log(drink2);
